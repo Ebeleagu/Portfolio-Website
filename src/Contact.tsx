@@ -31,13 +31,10 @@ const Contact: React.FC = () => {
     setIsSubmitting(true);
 
     try {
-      
       console.log("Submitting form data", formData);
 
-      
       await new Promise((resolve) => setTimeout(resolve, 2000));
 
-    
       window.location.reload();
     } catch (error) {
       console.error("Submission error:", error);
@@ -54,8 +51,10 @@ const Contact: React.FC = () => {
         onSubmit={handleSubmit}
         className="flex flex-col justify-center items-center"
       >
-        <div className="flex sm:flex-row flex-col justify-center md:space-x-5 mb-8 sm:max-w-2xl
-         w-[100%]  sm:gap-3 gap-6">
+        <div
+          className="flex sm:flex-row flex-col justify-center md:space-x-5 mb-8 sm:max-w-2xl
+         w-[100%]  sm:gap-3 gap-6"
+        >
           <input
             type="text"
             name="firstName"
