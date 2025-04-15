@@ -108,7 +108,11 @@ const Header: React.FC = () => {
             >
               Me.
             </a>
-            <a href="/Portfolio" className="mb-4 hover:text-[#297B67]">
+            <a
+              href="#Projects"
+              className="mb-4 hover:text-[#297B67]"
+              onClick={handleclick}
+            >
               Projects
             </a>
             <a
