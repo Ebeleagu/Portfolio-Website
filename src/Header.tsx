@@ -102,7 +102,7 @@ const Header: React.FC = () => {
               Services
             </a>
             <a
-              href="/Me"
+              href="/"
               className="mb-4 text-2xl text-[#297B67]"
               onClick={handleclick}
             >
