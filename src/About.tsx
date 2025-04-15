@@ -1,5 +1,5 @@
 import React from "react";
-import Picture from "/dave.jpg";
+import Picture from "/zavid.jpg";
 
 interface AboutProps {
   
@@ -39,7 +39,7 @@ const About: React.FC<AboutProps> = () => {
             <img
               src={Picture}
               alt="Ebeleagu David Ben"
-              className="md:w-[280px] w-[240px] md:h-[360px] h-[300px]"
+              className="md:w-[280px] w-[240px] md:h-[360px] h-[300px] object-cover"
             />
           </div>
           <div className="flex flex-col space-y-2 md:w-[40%] w-full">

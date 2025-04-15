@@ -20,7 +20,11 @@ const Header: React.FC = () => {
     window.addEventListener("scroll", controlScroll);
     return () => window.removeEventListener("scroll", controlScroll);
   }, []);
-
+  const handleclick = (): void => {
+    setTimeout(() => {
+      setMobileMenuOpen(false);
+    }, 700);
+  };
   return (
     <header
       className={`fixed top-0 right-0 left-0 z-10 ${stickyhead} shadow-md `}
@@ -42,7 +46,7 @@ const Header: React.FC = () => {
           <a href="/Me" className="text-3xl text-[#297B67]">
             Me.
           </a>
-          <a href="/Portfolio" className="hover:text-[#297B67]">
+          <a href="#Projects" className="hover:text-[#297B67]">
             Projects
           </a>
           <a href="#Contact" className="hover:text-[#297B67]">
@@ -76,22 +80,46 @@ const Header: React.FC = () => {
       {isMobileMenuOpen && (
         <div className="lg:hidden bg-white p-5">
           <div className="flex flex-col items-center">
-            <a href="/" className="mb-4 hover:text-[#297B67]">
+            <a
+              href="/"
+              className="mb-4 hover:text-[#297B67]"
+              onClick={handleclick}
+            >
               Home
             </a>
-            <a href="/About" className="mb-4 hover:text-[#297B67]">
+            <a
+              href="#about"
+              className="mb-4 hover:text-[#297B67]"
+              onClick={handleclick}
+            >
               About
             </a>
-            <a href="/Services" className="mb-4 hover:text-[#297B67]">
+            <a
+              href="#services"
+              className="mb-4 hover:text-[#297B67]"
+              onClick={handleclick}
+            >
               Services
             </a>
-            <a href="/Me" className="mb-4 text-2xl text-[#297B67]">
+            <a
+              href="/Me"
+              className="mb-4 text-2xl text-[#297B67]"
+              onClick={handleclick}
+            >
               Me.
             </a>
-            <a href="/Portfolio" className="mb-4 hover:text-[#297B67]">
+            <a
+              href="#Projects"
+              className="mb-4 hover:text-[#297B67]"
+              onClick={handleclick}
+            >
               Projects
             </a>
-            <a href="/Contact" className="hover:text-[#297B67]">
+            <a
+              href="#Contact"
+              className="hover:text-[#297B67]"
+              onClick={handleclick}
+            >
               Contact
             </a>
           </div>
