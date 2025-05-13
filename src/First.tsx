@@ -1,11 +1,11 @@
 // import React from 'react';
-import Pic from "/zavid.jpg";
+import Pic from "/zave.png";
 
 const First = () => {
   return (
     <div className="h-screen w-full flex flex-col md:flex-row justify-around bg-[whitesmoke] p-5">
       <div className="flex flex-col justify-center items-center gap-5 h-[80vh] font-[times-new-roman] text-center w-full md:w-1/2">
-        <h1 className="text-5xl md:text-7xl font-[cursive]">I'm David Ben.</h1>
+        <h1 className="text-5xl md:text-7xl font-[cursive]">I'm Charles Vincent.</h1>
         <h2 className="text-lg md:text-xl">
           I'm a Web Developer based in Nigeria, check me out!
         </h2>

@@ -31,7 +31,7 @@ const Header: React.FC = () => {
     >
       <nav className="flex justify-between items-center h-[12vh] px-5 font-[times-new-roman]">
         <p className="text-4xl text-[#297B67] flex justify-start items-start font-[cursive]">
-          DAVID
+          VINCENT
         </p>
         <div className="hidden lg:flex items-center gap-[50px]">
           <a href="/" className="hover:text-[#297B67]">
