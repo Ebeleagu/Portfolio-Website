@@ -1,5 +1,5 @@
 import React from "react";
-import Picture from "/zave.png";
+import Picture from "/zavid.jpg";
 
 interface AboutProps {
   
@@ -8,7 +8,7 @@ interface AboutProps {
 const About: React.FC<AboutProps> = () => {
   const handleContactClick = () => {
     const whatsappUrl =
-      "whatsapp://send?phone=&text=Hi%20Charles%20vincent";
+      "whatsapp://send?phone=+2348168656764&text=Hi%20Ebeleagu%20David";
     window.open(whatsappUrl, "_blank");
   };
 
@@ -38,7 +38,7 @@ const About: React.FC<AboutProps> = () => {
           <div className="mx-10 md:w-[30%]">
             <img
               src={Picture}
-              alt="Charles Vincent"
+              alt="Ebeleagu David Ben"
               className="md:w-[280px] w-[240px] md:h-[360px] h-[300px] object-cover"
             />
           </div>
@@ -50,16 +50,16 @@ const About: React.FC<AboutProps> = () => {
               me but also inspires those around me to strive for excellence in
               their own work.
             </p>
-            <p>Name: Charles Vincent</p>
+            <p>Name: Ebeleagu David Ben</p>
             <p>
               Email:{" "}
-              <a href="mailto:CharlesVincent@gmail.com">CharlesVincent@gmail.com</a>
+              <a href="mailto:Davydbernard@gmail.com">Davydbernard@gmail.com</a>
             </p>
-            <p>Phone: +234 8167643698</p>
-            <p>Github: Charles Vincent</p>
+            <p>Phone: +234 8168 656764</p>
+            <p>Github: Davyd Bernard</p>
             <button
               className="bg-[#297B67] p-3 rounded-full text-white w-full md:w-[8vw] transition-transform transform hover:scale-105 mt-3"
-              aria-label="Contact Charles Vincent"
+              aria-label="Contact Ebeleagu David Ben"
               onClick={handleContactClick}
             >
               Contact me

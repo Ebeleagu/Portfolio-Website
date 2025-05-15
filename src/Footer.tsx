@@ -66,7 +66,7 @@ const Footer = () => {
           <h4 className="text-xl font-bold mb-2">Connect With Me</h4>
           <div className="flex md:flex-col flex-row justify-around text-2xl text-gray-700 gap-2">
             <a
-              href=""
+              href="https://github.com/Ebeleagu"
               aria-label="GitHub Profile"
             >
               <span className="text-[#297B67] transition duration-300 hover:text-blue-600">
@@ -74,7 +74,7 @@ const Footer = () => {
               </span>
             </a>
             <a
-              href=""
+              href="https://instagram.com/iamdeh_veed"
               aria-label="Instagram Profile"
             >
               <span className="text-[#297B67] transition duration-300 hover:text-blue-600">
@@ -82,7 +82,7 @@ const Footer = () => {
               </span>
             </a>
             <a
-              href=""
+              href="https://twitter.com/@Idehveed"
               aria-label="Twitter Profile"
             >
               <span className="text-[#297B67] transition duration-300 hover:text-blue-600">
@@ -90,7 +90,7 @@ const Footer = () => {
               </span>
             </a>
             <a
-              href=""
+              href="https://facebook.com/DavidBernard"
               aria-label="Facebook Profile"
             >
               <span className="text-[#297B67] transition duration-300 hover:text-blue-600">
